@@ -1,14 +1,13 @@
 import React from 'react';
-import DataFetch from '../components/DataFetch';
-import NavBar from '../components/NavBar';
-import './../components/index.css';
+import Navigation from '../../components/Navigation';
+import '../../components/index.css';
 
-function App() {
+const App = () => {
   
     return (
       <div className='webPage'>
-        <NavBar className='navigation'/>
-        <DataFetch/>
+        Hello
+        <Navigation className='navigation'/>
       </div>
  );
     }
