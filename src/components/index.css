@@ -21,13 +21,12 @@ p {
     height: 75px;
     padding: 20px;
     margin: 20px;
-    color: yellowgreen;
+    color: blue;
     text-decoration: none;
     font-size: 20px;
     border-radius: 20px;
-    border: solid 3px hotpink;
-    background-color: darkslategray;
-    color: yellowgreen;
+    border: solid 3px lightskyblue;
+    background-color: blue;
 }
 
 .homeButton {
@@ -104,7 +103,7 @@ p {
     align-items: center;
     width: 100px;
     text-decoration: none;
-    color: yellowgreen;
+    color: lightskyblue;
 }
 
 .display {
@@ -113,7 +112,7 @@ p {
     align-items: center;
     width: 100px;
     text-decoration: none;
-    color: yellowgreen;
+    color: lightskyblue;
 }
 
 .collection {
@@ -122,7 +121,7 @@ p {
     align-items: center;
     width: 100px;
     text-decoration: none;
-    color: yellowgreen;
+    color: lightskyblue;
 }
 
 .carouselTextNav {
@@ -131,7 +130,7 @@ p {
     align-items: center;
     width: 100px;
     text-decoration: none;
-    color: yellowgreen;
+    color: lightskyblue;
 }
 
 .collectionPage {

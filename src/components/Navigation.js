@@ -1,8 +1,8 @@
 import React from 'react';
-import '../components/index.css';
+import './index.css';
 import { Link } from 'gatsby';
 
-const NavBar = () => {
+const Navigation = () => {
     return (
         <div className='container'>
             <div className='nav'>
@@ -23,4 +23,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar
+export default Navigation

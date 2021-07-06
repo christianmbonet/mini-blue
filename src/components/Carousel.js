@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import Navigation from '../../components/Navigation';
+import Navigation from './Navigation.js';
 import doit from '../images/doit.jpeg';
 import power from '../images/power.jpeg';
 import reserved from '../images/reserved.jpeg';
 import sketch from '../images/sketch.jpeg';
 import smoker from '../images/smoker.jpeg';
 import start from '../images/start.jpeg';
-import './index.css';
+import '../components/index.css';
 
 const Carousel = () => {
     let carouselArr = [
