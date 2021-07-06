@@ -1,26 +1,26 @@
 import React, {useState} from 'react';
-import Navigation from './Navigation.js';
-import doit from '../images/doit.jpeg';
-import power from '../images/power.jpeg';
-import reserved from '../images/reserved.jpeg';
-import sketch from '../images/sketch.jpeg';
-import smoker from '../images/smoker.jpeg';
-import start from '../images/start.jpeg';
+import Navigation from '../components/Navigation.js';
+import doit from '../images/doit.jpg';
+import power from '../images/power.jpg';
+import reserved from '../images/reserved.jpg';
+import sketch from '../images/sketch.jpg';
+import smoker from '../images/smoker.jpg';
+import start from '../images/start.jpg';
 import '../components/index.css';
 
 const Carousel = () => {
     let carouselArr = [
     <div>
         <img className='angel' src={doit}/>
-        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Botticelli</div>
-        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Annunciation</div>
-        <div><span class='titleBoldCollection'>Date:&nbsp;</span>1485-1492</div>
+        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>GH</div>
+        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Eight Dollars</div>
+        <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia fue</div>
     </div>,
     <div>
         <img className='caballoImage' src={power}/>
-        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Han Gan</div>
-        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Night Shining White</div>
-        <div><span class='titleBoldCollection'>Date:&nbsp;</span>750</div>
+        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>CB</div>
+        <div><span class='titleBoldCollection'>Title:&nbsp;</span>El bano</div>
+        <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia fue</div>
     </div>,
     <div>
         <img className='degasImage' src={reserved}/>
