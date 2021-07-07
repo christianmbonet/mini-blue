@@ -11,41 +11,41 @@ import '../components/index.css';
 const Carousel = () => {
     let carouselArr = [
     <div>
-        <img className='angel' src={doit}/>
+        <img className='doit' src={doit}/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>GH</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>Eight Dollars</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia fue</div>
     </div>,
     <div>
-        <img className='caballoImage' src={power}/>
+        <img className='power' src={power}/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>CB</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>El bano</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia fue</div>
     </div>,
     <div>
-        <img className='degasImage' src={reserved}/>
-        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Edgar Degas</div>
-        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Dance Class</div>
-        <div><span class='titleBoldCollection'>Date:&nbsp;</span>1874</div>
+        <img className='reserved' src={reserved}/>
+        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>No One</div>
+        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Reserved</div>
+        <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia</div>
     </div>,
     <div>
-        <img className='diego' src={sketch}/>
-        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Diego Velazquez</div>
-        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Juan de Pareja</div>
-        <div><span class='titleBoldCollection'>Date:&nbsp;</span>1650</div>
+        <img className='sketch' src={sketch}/>
+        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>GH</div>
+        <div><span class='titleBoldCollection'>Title:&nbsp;</span>GH</div>
+        <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia</div>
     </div>,
     <div>
-        <img className='loversImage' src={smoker}/>
+        <img className='smoker' src={smoker}/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Riza-yi'Abassi</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>The Lovers</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>A.D. 1630</div>
     </div>
     ,
     <div>
-        <img className='rem' src={start}/>
-        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Rembrandt</div>
-        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Aristotle with a Bust of Homer</div>
-        <div><span class='titleBoldCollection'>Date:&nbsp;</span>1653</div>
+        <img className='start' src={start}/>
+        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>CB</div>
+        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Start here</div>
+        <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia</div>
     </div>,
 
 ];
