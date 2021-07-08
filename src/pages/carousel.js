@@ -72,8 +72,8 @@ const Carousel = () => {
                 );
             })}
             <div className='directionalArrows'>
-                <button className='leftArrow' onClick={goLeft}>Left</button>
-                <button className='rightArrow' onClick={goRight}>Right</button>
+                <button className='leftArrow' onClick={goLeft}>&nbsp;</button>
+                <button className='rightArrow' onClick={goRight}>&nbsp;</button>
             </div>
             </div>
         </div>

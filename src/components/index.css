@@ -271,7 +271,9 @@ p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 75px;
     margin: 20px;
 }
 
@@ -280,6 +282,8 @@ p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 5%;
+    width: 30px;
+    height: 30px;
+    border-radius: 75px;
     margin: 20px;
 }
