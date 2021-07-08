@@ -267,23 +267,27 @@ p {
 
 
 .leftArrow {
+    border-style: none;
     left: 0;
+    background-color: red;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
     border-radius: 75px;
-    margin: 20px;
+    margin: 100px;
 }
 
 .rightArrow {
+    border-style: none;
     right: 0;
+    background-color: blue;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
     border-radius: 75px;
-    margin: 20px;
+    margin: 100px;
 }
