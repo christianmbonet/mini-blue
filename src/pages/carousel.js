@@ -11,38 +11,38 @@ import '../components/index.css';
 const Carousel = () => {
     let carouselArr = [
     <div>
-        <img className='doit' src={doit}/>
+        <img className='doit' src={doit} alt='doit'/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>GH</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>Eight Dollars</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia fue</div>
     </div>,
     <div>
-        <img className='power' src={power}/>
+        <img className='power' src={power} alt='power'/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>CB</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>El bano</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia fue</div>
     </div>,
     <div>
-        <img className='reserved' src={reserved}/>
+        <img className='reserved' src={reserved} alt='reserved'/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>No One</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>Reserved</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia</div>
     </div>,
     <div>
-        <img className='sketch' src={sketch}/>
+        <img className='sketch' src={sketch} alt='sketch'/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>GH</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>GH</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia</div>
     </div>,
     <div>
-        <img className='smoker' src={smoker}/>
+        <img className='smoker' src={smoker} alt='smoker'/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Riza-yi'Abassi</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>The Lovers</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>A.D. 1630</div>
     </div>
     ,
     <div>
-        <img className='start' src={start}/>
+        <img className='start' src={start} alt='start'/>
         <div><span class='titleBoldCollection'>Artist:&nbsp;</span>CB</div>
         <div><span class='titleBoldCollection'>Title:&nbsp;</span>Start here</div>
         <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia</div>
