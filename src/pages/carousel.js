@@ -36,9 +36,9 @@ const Carousel = () => {
     </div>,
     <div>
         <img className='smoker' src={smoker} alt='smoker'/>
-        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Riza-yi'Abassi</div>
-        <div><span class='titleBoldCollection'>Title:&nbsp;</span>The Lovers</div>
-        <div><span class='titleBoldCollection'>Date:&nbsp;</span>A.D. 1630</div>
+        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>Smokers</div>
+        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Post</div>
+        <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia</div>
     </div>
     ,
     <div>

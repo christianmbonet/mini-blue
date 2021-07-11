@@ -139,8 +139,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    width: 450px;
+    height: 700px;
+    width: 550px;
     padding: 15px;
 }
 
@@ -153,8 +153,8 @@ p {
 
 .doit {
     display: flex;
-    height: 500px;
-    width: 850px;
+    height: 600px;
+    width: 550px;
     padding: 15px;
 }
 
@@ -162,8 +162,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
-    width: 500px;
+    height: 500px;
+    width: 800px;
     padding: 15px;
 }
 
@@ -180,8 +180,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
-    width: 700px;
+    height: 600px;
+    width: 550px;
     padding: 15px;
 }
 .placeholderImageRow {
