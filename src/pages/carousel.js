@@ -12,9 +12,9 @@ const Carousel = () => {
     let carouselArr = [
     <div>
         <img className='doit' src={doit} alt='doit'/>
-        <div><span class='titleBoldCollection'>Artist:&nbsp;</span>GH</div>
-        <div><span class='titleBoldCollection'>Title:&nbsp;</span>Eight Dollars</div>
-        <div><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia fue</div>
+        <div className='carouselLabel'><span class='titleBoldCollection'>Artist:&nbsp;</span>GH</div>
+        <div className='carouselLabel'><span class='titleBoldCollection'>Title:&nbsp;</span>Eight Dollars</div>
+        <div className='carouselLabel'><span class='titleBoldCollection'>Date:&nbsp;</span>Un dia fue</div>
     </div>,
     <div>
         <img className='power' src={power} alt='power'/>

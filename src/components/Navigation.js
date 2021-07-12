@@ -15,11 +15,8 @@ const Navigation = () => {
                 <div className='displayButton'>
                     <Link to='/display' className='display'>Display</Link>
                 </div>
-                <div className='collectionButton'>
-                    <Link to='/collection' className='collection'>Collection</Link>
                 </div>
             </div>
-        </div>
     )
 }
 
