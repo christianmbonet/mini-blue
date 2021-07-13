@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import './../components/index.css'
+import './../components/index.css';
+import Navigation from "../components/Navigation";
 
 export default function Home() {
    
@@ -9,6 +10,7 @@ export default function Home() {
   const lightSwitchPink = () => setOn(on => !on);
 
   return <div className='page'>
+    <Navigation/>
   <div className='container'>
     <div className='topRow'>
         <button onClick={lightSwitchPink} className={on ? 'topLeftPink' : 'topLeftLightBlue'}></button>
