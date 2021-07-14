@@ -10,9 +10,10 @@ export default function Home() {
   const lightSwitchPink = () => setOn(on => !on);
 
   return <div className='page'>
-    <Navigation/>
-  <div className='container'>
-    <div className='topRow'>
+      <Navigation/>
+        <div className='switch'>
+        <div className='container'>
+        <div className='topRow'>
         <button onClick={lightSwitchPink} className={on ? 'topLeftPink' : 'topLeftLightBlue'}></button>
         <div className={on ? 'topMiddleBlue' : 'topMiddlePink'}></div>
         <button onClick={lightSwitchPink} className={on ? 'topRightPink' : 'topRightLightBlue'}></button>
@@ -27,6 +28,7 @@ export default function Home() {
         <div className={on ? 'bottomMiddleBlue' : 'bottomMiddlePink'}></div>
         <div onClick={lightSwitchPink} className={on? 'bottomRightPink' : 'bottomRightLightBlue'}></div>
     </div>
+  </div>
   </div>
   </div>
 }
