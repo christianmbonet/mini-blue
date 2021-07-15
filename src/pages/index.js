@@ -20,13 +20,13 @@ const Home = () => {
           <button onClick={lightSwitchPink} className={on ? 'topRightPink' : 'topRightLightBlue'}></button>
       </div>
       <div className='middleRow'>
-          <div className={on ? 'middleLeftBlue': 'middleLeftPink'}></div>
+          <Link to='/carousel' className={on ? 'middleLeftBlue': 'middleLeftPink'}></Link>
           <button onClick={lightSwitchCenter} className='middleMiddle'></button>
-          <div className={on ? 'middleRightBlue' : 'middleRightPink'}></div>
+          <Link to='/carousel' className={on ? 'middleRightBlue' : 'middleRightPink'}></Link>
       </div>
       <div className='bottomRow'>
           <button onClick={lightSwitchPink} className={on ? 'bottomLeftPink' : 'bottomLeftLightBlue'}></button>
-          <div className={on ? 'bottomMiddleBlue' : 'bottomMiddlePink'}></div>
+          <Link to='/carousel' className={on ? 'bottomMiddleBlue' : 'bottomMiddlePink'}></Link>
           <div onClick={lightSwitchPink} className={on? 'bottomRightPink' : 'bottomRightLightBlue'}></div>
       </div>
     </div>
