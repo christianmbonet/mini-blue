@@ -7,7 +7,7 @@ const Navigation = () => {
         <div className='container'>
             <div className='nav'>
                 <div className='homeButton'>
-                    <Link to='/' className='home'>ENTER</Link>
+                    <Link to='/' className='home'>MINI-BLUE</Link>
                 </div>
                 </div>
             </div>
