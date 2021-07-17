@@ -322,42 +322,42 @@ button {
 }
 
 
-.topLeftPink {
+.topLeftv1 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: hotpink;
 }
 
-.topLeftLightBlue {
+.topLeftv2 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: blueviolet;
 }
 
-.topMiddleBlue {
+.topMiddlev1 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: blue;
 }
 
-.topMiddlePink {
+.topMiddlev2 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: pink;
 }
 
-.topRightPink {
+.topRightv1 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: lightblue;
 }
 
-.topRightLightBlue {
+.topRightv2 {
     display: flex;
     height: 125px;
     width: 125px;
@@ -368,14 +368,14 @@ button {
     display: flex;
 }
 
-.middleLeftBlue {
+.middleLeftv1 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: blue;
 }
 
-.middleLeftPink {
+.middleLeftv2 {
     display: flex;
     height: 125px;
     width: 125px;
@@ -389,14 +389,14 @@ button {
     background-color: lightblue;
 }
 
-.middleRightBlue {
+.middleRightv1 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: blue;
 }
 
-.middleRightPink {
+.middleRightv2 {
     display: flex;
     height: 125px;
     width: 125px;
@@ -412,42 +412,42 @@ button {
     flex-direction: column;
 }
 
-.bottomLeftPink {
+.bottomLeftv1 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: lightblue;
 }
 
-.bottomLeftLightBlue {
+.bottomLeftv2 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: hotpink;
 }
 
-.bottomMiddleBlue {
+.bottomMiddlev1 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: blue;
 }
 
-.bottomMiddlePink {
+.bottomMiddlev2 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: pink;
 }
 
-.bottomRightPink {
+.bottomRightv1 {
     display: flex;
     height: 125px;
     width: 125px;
     background-color: hotpink;
 }
 
-.bottomRightLightBlue {
+.bottomRightv2 {
     display: flex;
     height: 125px;
     width: 125px;
