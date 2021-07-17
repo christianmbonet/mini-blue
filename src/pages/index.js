@@ -11,9 +11,8 @@ const Home = () => {
     const lightSwitchPink = () => setOn(on => !on);
   
     return <div className='page'>
-        <Navigation/>
-          <div className='switch'>
-          <div className='container'>
+      <div className='switch'>
+      <div className='container'>
           <div className='topRow'>
           <button onClick={lightSwitchPink} className={on ? 'topLeftv1' : 'topLeftv2'}></button>
           <Link to='/carousel' className={on ? 'topMiddlev1' : 'topMiddlev2'}></Link>
@@ -31,6 +30,9 @@ const Home = () => {
       </div>
     </div>
     </div>
+    <div className='secondRowWebPage'>
+      <Navigation className='cc'/>
+    </div>      
     </div>
   }
 
