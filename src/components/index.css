@@ -76,7 +76,8 @@ p {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: lightskyblue;
+    height: 100px;
+    width: 100px;
 }
 
 .display {
