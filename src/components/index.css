@@ -338,7 +338,7 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: pink;
+    background-color: #084B83;
 }
 
 .topRightv1 {
@@ -370,7 +370,7 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: pink;
+    background-color: #084B83;
 }
 
 .middleMiddle {
@@ -391,7 +391,7 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: pink;
+    background-color: #084B83;
 }
 
 .bottomRow {
@@ -428,7 +428,7 @@ button {
     display: flex;
     height: 125px;
     width: 125px;
-    background-color: pink;
+    background-color: #084B83;
 }
 
 .bottomRightv1 {
