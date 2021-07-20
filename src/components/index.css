@@ -8,18 +8,26 @@ p {
 
 .container {
     display: flex;
-    align-items: center;
     width: 100%;
 }
 
-.nav {
+.redNav {
     display: flex;
-    width: 75px;
-    height: 75px;
-    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 125px;
+    width: 125px;
+}
+
+.nav {
+    width: 125px;
+    height: 125px;
     background-color: red;
     text-decoration: none;
 }
+
+/* className='nav'*/
 
 .fullContainer {
     display: flex;
@@ -45,18 +53,6 @@ p {
     width:fit-content;
 }
 
-.labelContainerDisplay {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: lime;
-    width:fit-content;
-}
-
 
 .button {
     display: flex;
@@ -69,15 +65,6 @@ p {
     background-color: darkslategrey;
     color: yellowgreen;
     font-size: 14px
-}
-
-.home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    height: 100px;
-    width: 100px;
 }
 
 .display {
@@ -295,7 +282,6 @@ button {
     display: flex;
     justify-content: right;
     align-items: flex-end;
-    padding: 100px;
 }
 
 .container {
@@ -305,7 +291,6 @@ button {
 
 .switch {
     display: flex;
-    padding-top: 150px;
 }
 
 .topRow {

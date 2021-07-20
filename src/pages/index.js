@@ -31,7 +31,7 @@ const Home = () => {
     </div>
     </div>
     <div className='secondRowWebPage'>
-      <Navigation className='cc'/>
+      <Navigation className='redNav'/>
     </div>      
     </div>
   }

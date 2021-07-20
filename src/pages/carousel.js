@@ -61,7 +61,7 @@ const Carousel = () => {
 
     return (
         <div>
-        <Navigation/>
+        <Navigation className='redNav'/>
         <div className='carouselPage'>
             <div className='items'>
             {carouselArr.map((item, index) => {
