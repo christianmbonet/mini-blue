@@ -15,7 +15,7 @@ const Home = () => {
       <div className='container'>
           <div className='topRow'>
           <button onClick={lightSwitchPink} className={on ? 'topLeftv1' : 'topLeftv2'}></button>
-          <Link to='/carousel' className={on ? 'topMiddlev1' : 'topMiddlev2'}></Link>
+          <Link to='/doit' className={on ? 'topMiddlev1' : 'topMiddlev2'}></Link>
           <button onClick={lightSwitchPink} className={on ? 'topRightv1' : 'topRightv2'}></button>
       </div>
       <div className='middleRow'>

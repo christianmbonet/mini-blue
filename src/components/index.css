@@ -2,8 +2,13 @@ body {
     background-color: black;
 }
 
-p {
-    color: darkslategray;
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
 }
 
 .container {
@@ -13,21 +18,21 @@ p {
 
 .redNav {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
     text-decoration: none;
     height: 125px;
     width: 125px;
 }
 
 .nav {
+    display: flex;
+    align-items: flex-end;
     width: 125px;
     height: 125px;
     background-color: red;
     text-decoration: none;
 }
-
-/* className='nav'*/
 
 .fullContainer {
     display: flex;
@@ -52,7 +57,6 @@ p {
     background-color: lightyellow;
     width:fit-content;
 }
-
 
 .button {
     display: flex;
@@ -92,19 +96,6 @@ p {
     width: 100px;
     text-decoration: none;
     color: lightskyblue;
-}
-
-.collectionPage {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.collectionImageContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: space-around;
 }
 
 .start {
@@ -264,25 +255,12 @@ p {
     margin: 100px;
 }
 
-/*DISPLAY*/
+/*index.js*/
 
 button {
     border: none;
 }
 
-.page {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    height: 100vh;
-    width: 100%;
-}
-
-.secondRowWebPage {
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-}
 
 .container {
     display: flex;
@@ -428,4 +406,10 @@ button {
     height: 125px;
     width: 125px;
     background-color: #3F88C5;
+}
+
+.doitPage {
+    display: flex;
+    height: 100vh;
+    width: 100%;
 }
