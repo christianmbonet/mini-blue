@@ -11,6 +11,12 @@ body {
     width: 100%;
 }
 
+.secondRowWebPage {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
 .container {
     display: flex;
     width: 100%;
@@ -18,8 +24,8 @@ body {
 
 .redNav {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: right;
+    align-items: right;
     text-decoration: none;
     height: 125px;
     width: 125px;
