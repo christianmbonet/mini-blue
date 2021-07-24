@@ -19,7 +19,7 @@ const Home = () => {
           <button onClick={lightSwitchPink} className={on ? 'topRightv1' : 'topRightv2'}></button>
       </div>
       <div className='middleRow'>
-          <Link to='/carousel' className={on ? 'middleLeftv1': 'middleLeftv2'}></Link>
+          <Link to='/sketch' className={on ? 'middleLeftv1': 'middleLeftv2'}></Link>
           <button onClick={lightSwitchCenter} className='middleMiddle'></button>
           <Link to='/carousel' className={on ? 'middleRightv1' : 'middleRightv2'}></Link>
       </div>
