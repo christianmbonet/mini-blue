@@ -5,7 +5,7 @@ import '../components/index.css';
 const sketchPage = () => {
     return (
         <div className='sketchPage'>
-        <img src= {sketch} alt='sketch'></img>
+        <img className='sketch' src= {sketch} alt='sketch'></img>
     </div>
     )
 }
