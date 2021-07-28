@@ -21,11 +21,11 @@ const Home = () => {
       <div className='middleRow'>
           <Link to='/sketch' className={on ? 'middleLeftv1': 'middleLeftv2'}></Link>
           <button onClick={lightSwitchCenter} className='middleMiddle'></button>
-          <Link to='/carousel' className={on ? 'middleRightv1' : 'middleRightv2'}></Link>
+          <Link to='/start' className={on ? 'middleRightv1' : 'middleRightv2'}></Link>
       </div>
       <div className='bottomRow'>
           <button onClick={lightSwitchPink} className={on ? 'bottomLeftv1' : 'bottomLeftv2'}></button>
-          <Link to='/carousel' className={on ? 'bottomMiddlev1' : 'bottomMiddlev2'}></Link>
+          <Link to='/power' className={on ? 'bottomMiddlev1' : 'bottomMiddlev2'}></Link>
           <div onClick={lightSwitchPink} className={on? 'bottomRightv1' : 'bottomRightv2'}></div>
       </div>
     </div>
