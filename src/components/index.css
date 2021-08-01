@@ -29,6 +29,8 @@ body {
     text-decoration: none;
     height: 125px;
     width: 125px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .nav {
@@ -38,6 +40,8 @@ body {
     height: 125px;
     background-color: red;
     text-decoration: none;
+    margin: 10px;
+    padding: 10px;
 }
 
 .fullContainer {
@@ -108,50 +112,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;
-    width: 550px;
     padding: 15px;
 }
 
 .sketch {
     display: flex;
-    height: 600px;
-    width: 500px;
-    padding: 15px;
 }
 
 .doit {
     display: flex;
-    height: 600px;
-    width: 550px;
-    padding: 40px;
+    margin: 10px;
+    padding: 10px
 }
 
 .reserved {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    width: 800px;
-    padding: 15px;
 }
 
 .smoker {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 750px;
-    width: 500px;
-    padding: 15px;
 }
 
 .power {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
-    width: 550px;
-    padding: 15px;
 }
 .placeholderImageRow {
     display: flex;
@@ -416,36 +405,48 @@ button {
 
 .doitPage {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     width: 100%;
 }
 
 .startPage {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     width: 100%;
 }
 
 .smokerPage {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     width: 100%;
 }
 
 .sketchPage {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     width: 100%;
 }
 
 .reservedPage {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     width: 100%;
 }
 
 .powerPage {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     width: 100%;
 }

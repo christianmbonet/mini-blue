@@ -6,7 +6,7 @@ import Navigation from '../components/Navigation';
 const powerPage = () => {
     return (
         <div className='powerPage'>
-        <img src= {power} alt='power'></img>
+        <img className='power' src= {power} alt='power'></img>
         <div className='secondRowWebPage'>
             <Navigation className='redNav'/>
         </div>

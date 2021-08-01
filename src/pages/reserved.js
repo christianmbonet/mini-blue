@@ -7,7 +7,7 @@ import Navigation from '../components/Navigation';
 const reservedPage = () => {
     return (
         <div className='reservedPage'>
-        <img src= {reserved} alt='reserved'></img>
+        <img className='reserved' src= {reserved} alt='reserved'></img>
         <div className='secondRowWebPage'>
             <Navigation className='redNav'/>
         </div>

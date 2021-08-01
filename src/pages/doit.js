@@ -6,7 +6,7 @@ import Navigation from '../components/Navigation';
 const doitPage = () => {
     return (
         <div className='doitPage'>
-        <img src= {doit} alt='doit'></img>
+        <img className='doit' src= {doit} alt='doit'></img>
         <div className='secondRowWebPage'>
             <Navigation className='redNav'/>
         </div>
