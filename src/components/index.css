@@ -11,12 +11,6 @@ body {
     width: 100%;
 }
 
-.secondRowWebPage {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
 .container {
     display: flex;
     width: 100%;
@@ -29,8 +23,8 @@ body {
     text-decoration: none;
     height: 125px;
     width: 125px;
-    margin: 10px;
-    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .nav {
@@ -40,8 +34,15 @@ body {
     height: 125px;
     background-color: red;
     text-decoration: none;
-    margin: 10px;
-    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;;
+}
+
+.secondRowWebPage {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
 .fullContainer {
@@ -110,37 +111,44 @@ body {
 
 .start {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 15px;
+    justify-content: center;
+    border-radius: 5px;
 }
 
 .sketch {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
 .doit {
     display: flex;
-    margin: 10px;
-    padding: 10px
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
 .reserved {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 }
 
 .smoker {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 }
 
 .power {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 }
 .placeholderImageRow {
     display: flex;
