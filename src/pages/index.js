@@ -14,18 +14,18 @@ const Home = () => {
       <div className='switch'>
       <div className='container'>
           <div className='topRow'>
-          <button onClick={lightSwitchPink} className={on ? 'topLeftv1' : 'topLeftv2'}></button>
+          <Link to='/start' onClick={lightSwitchPink} className={on ? 'topLeftv1' : 'topLeftv2'}></Link>
           <Link to='/doit' className={on ? 'topMiddlev1' : 'topMiddlev2'}></Link>
-          <button onClick={lightSwitchPink} className={on ? 'topRightv1' : 'topRightv2'}></button>
+          <Link to='/power' onClick={lightSwitchPink} className={on ? 'topRightv1' : 'topRightv2'}></Link>
       </div>
       <div className='middleRow'>
           <Link to='/sketch' className={on ? 'middleLeftv1': 'middleLeftv2'}></Link>
           <button onClick={lightSwitchCenter} className='middleMiddle'></button>
-          <Link to='/start' className={on ? 'middleRightv1' : 'middleRightv2'}></Link>
+          <button className={on ? 'middleRightv1' : 'middleRightv2'}></button>
       </div>
       <div className='bottomRow'>
           <button onClick={lightSwitchPink} className={on ? 'bottomLeftv1' : 'bottomLeftv2'}></button>
-          <Link to='/power' className={on ? 'bottomMiddlev1' : 'bottomMiddlev2'}></Link>
+          <button className={on ? 'bottomMiddlev1' : 'bottomMiddlev2'}></button>
           <div onClick={lightSwitchPink} className={on? 'bottomRightv1' : 'bottomRightv2'}></div>
       </div>
     </div>
