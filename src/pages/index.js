@@ -24,15 +24,15 @@ const Home = () => {
           <button className={on ? 'middleRightv1' : 'middleRightv2'}></button>
       </div>
       <div className='bottomRow'>
-          <button onClick={lightSwitchPink} className={on ? 'bottomLeftv1' : 'bottomLeftv2'}></button>
+          <Link to='/smoker' onClick={lightSwitchPink} className={on ? 'bottomLeftv1' : 'bottomLeftv2'}></Link>
           <button className={on ? 'bottomMiddlev1' : 'bottomMiddlev2'}></button>
-          <div onClick={lightSwitchPink} className={on? 'bottomRightv1' : 'bottomRightv2'}></div>
+          <Link to='/reserved' onClick={lightSwitchPink} className={on? 'bottomRightv1' : 'bottomRightv2'}></Link>
       </div>
     </div>
     </div>
     <div className='secondRowWebPage'>
       <Navigation className='redNav'/>
-    </div>      
+    </div>
     </div>
   }
 
