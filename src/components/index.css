@@ -274,7 +274,7 @@ button {
     display: flex;
 }
 
-.topRow {
+.rowOne {
     display: flex;
 }
 
@@ -321,7 +321,7 @@ button {
     background-color: #7FC8F8;
 }
 
-.middleRow {
+.rowTwo {
     display: flex;
 }
 
@@ -360,7 +360,7 @@ button {
     background-color: #084B83;
 }
 
-.bottomRow {
+.rowThree {
     display: flex;
 }
 

@@ -13,17 +13,17 @@ const Home = () => {
     return <div className='page'>
       <div className='switch'>
       <div className='container'>
-          <div className='topRow'>
+          <div className='rowOne'>
           <Link to='/start' onClick={lightSwitchPink} className={on ? 'topLeftv1' : 'topLeftv2'}></Link>
           <Link to='/doit' className={on ? 'topMiddlev1' : 'topMiddlev2'}></Link>
           <Link to='/power' onClick={lightSwitchPink} className={on ? 'topRightv1' : 'topRightv2'}></Link>
       </div>
-      <div className='middleRow'>
+      <div className='rowTwo'>
           <Link to='/sketch' className={on ? 'middleLeftv1': 'middleLeftv2'}></Link>
           <button onClick={lightSwitchCenter} className='middleMiddle'></button>
           <button className={on ? 'middleRightv1' : 'middleRightv2'}></button>
       </div>
-      <div className='bottomRow'>
+      <div className='rowThree'>
           <Link to='/smoker' onClick={lightSwitchPink} className={on ? 'bottomLeftv1' : 'bottomLeftv2'}></Link>
           <button className={on ? 'bottomMiddlev1' : 'bottomMiddlev2'}></button>
           <Link to='/reserved' onClick={lightSwitchPink} className={on? 'bottomRightv1' : 'bottomRightv2'}></Link>
