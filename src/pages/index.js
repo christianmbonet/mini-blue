@@ -17,6 +17,7 @@ const Home = () => {
           <Link to='/start' onClick={lightSwitchPink} className={on ? 'topLeftv1' : 'topLeftv2'}></Link>
           <Link to='/doit' className={on ? 'topMiddlev1' : 'topMiddlev2'}></Link>
           <Link to='/power' onClick={lightSwitchPink} className={on ? 'topRightv1' : 'topRightv2'}></Link>
+          <Link to='/ex' className='rowOneColumnFour'></Link>
       </div>
       <div className='rowTwo'>
           <Link to='/sketch' className={on ? 'middleLeftv1': 'middleLeftv2'}></Link>

@@ -321,6 +321,13 @@ button {
     background-color: #7FC8F8;
 }
 
+.rowOneColumnFour {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: #7FC8F8;
+}
+
 .rowTwo {
     display: flex;
 }
@@ -458,3 +465,4 @@ button {
     height: 100vh;
     width: 100%;
 }
+
