@@ -36,7 +36,6 @@ body {
     text-decoration: none;
     margin-top: 5px;
     margin-bottom: 5px;
-    border-radius: 5px;;
 }
 
 .secondRowWebPage {
@@ -223,41 +222,6 @@ body {
     width: 100%;
 }
 
-.carouselItem {
-    display: flex;
-    justify-content: center;
-    min-width: 100%;
-    height: 80%;
-    transition: 0.5s;
-}
-
-
-.leftArrow {
-    border-style: none;
-    left: 0;
-    background-color: red;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 75px;
-    margin: 100px;
-}
-
-.rightArrow {
-    border-style: none;
-    right: 0;
-    background-color: blue;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    border-radius: 75px;
-    margin: 100px;
-}
-
 /*index.js*/
 
 button {
@@ -367,6 +331,13 @@ button {
     background-color: #084B83;
 }
 
+.rowTwoColumnFour {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+}
+
 .rowThree {
     display: flex;
 }
@@ -418,6 +389,13 @@ button {
     background-color: #3F88C5;
 }
 
+.rowThreeColumnFour {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: #084B83;
+}
+
 .doitPage {
     display: flex;
     flex-direction: column;
@@ -459,6 +437,30 @@ button {
 }
 
 .powerPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.exPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.birdPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.itPage {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

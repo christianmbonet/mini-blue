@@ -23,11 +23,13 @@ const Home = () => {
           <Link to='/sketch' className={on ? 'middleLeftv1': 'middleLeftv2'}></Link>
           <button onClick={lightSwitchCenter} className='middleMiddle'></button>
           <button className={on ? 'middleRightv1' : 'middleRightv2'}></button>
+          <Link to='/bird' className='rowTwoColumnFour'></Link>
       </div>
       <div className='rowThree'>
           <Link to='/smoker' onClick={lightSwitchPink} className={on ? 'bottomLeftv1' : 'bottomLeftv2'}></Link>
           <button className={on ? 'bottomMiddlev1' : 'bottomMiddlev2'}></button>
           <Link to='/reserved' onClick={lightSwitchPink} className={on? 'bottomRightv1' : 'bottomRightv2'}></Link>
+          <Link to='/it' className='rowThreeColumnFour'></Link>
       </div>
     </div>
     </div>

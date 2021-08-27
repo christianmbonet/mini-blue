@@ -5,7 +5,7 @@ import Navigation from '../components/Navigation';
 
 const birdPage = () => {
     return (
-        <div className='itPage'>
+        <div className='birdPage'>
         <img className='bird' src= {bird} alt='bird'></img>
         <div className='secondRowWebPage'>
             <Navigation className='redNav'/>
