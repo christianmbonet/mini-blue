@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "v14.8.0"
+    "node": ">=v14.8.0"
   },
   "name": "gatsby-starter-hello-world",
   "private": true,
