@@ -342,6 +342,17 @@ button {
     display: flex;
 }
 
+.rowFour {
+    display: flex;
+}
+
+.rowFourColumnOne {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: #084B83;
+}
+
 .bottomLeft {
     display: flex;
     flex-direction: column;
@@ -461,6 +472,14 @@ button {
 }
 
 .itPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+.noPage {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

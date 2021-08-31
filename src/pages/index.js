@@ -31,6 +31,9 @@ const Home = () => {
           <Link to='/reserved' onClick={lightSwitchPink} className={on? 'bottomRightv1' : 'bottomRightv2'}></Link>
           <Link to='/it' className='rowThreeColumnFour'></Link>
       </div>
+      <div className='rowFour'>
+        <Link to='/no' className='rowFourColumnOne'></Link>
+      </div>
     </div>
     </div>
     <div className='secondRowWebPage'>
