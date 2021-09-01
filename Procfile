@@ -1,1 +1,1 @@
-web: gatsby build
+web: gatsby develop
