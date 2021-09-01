@@ -2,14 +2,13 @@
   "engines": {
     "node": "14.x"
   },
-  "name": "gatsby-starter-hello-world",
+  "name": "miniblue",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A simplified blue",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
-    "heroku-postbuild": "gatsby build",
-    "start": "node index.js",
+    "start": "node src/index.js",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
