@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": ">=v14.8.0"
+    "node": "14.x"
   },
   "name": "gatsby-starter-hello-world",
   "private": true,
@@ -30,5 +30,13 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    }
+  ]
 }
