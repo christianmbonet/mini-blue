@@ -7,9 +7,10 @@
   "description": "A simplified blue",
   "version": "0.1.0",
   "license": "0BSD",
-  "scripts": {
-    "start": "yarn start",
+  "scripts": { 
     "build": "gatsby build",
+    "heroku-postbuild": "gatsby build",
+    "start": "gatsby serve",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "serve": "gatsby serve",
