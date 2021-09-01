@@ -4,7 +4,7 @@ import express from "express";
 
 let app = express();
 
-app.use(bodyparser.json());
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 let port = process.env.PORT || 8080;
 
