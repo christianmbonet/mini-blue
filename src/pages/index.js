@@ -33,6 +33,7 @@ const Home = () => {
       </div>
       <div className='rowFour'>
         <Link to='/no' className='rowFourColumnOne'></Link>
+        <Link to='/colores' className='rowFourColumnTwo'></Link>
       </div>
     </div>
     </div>

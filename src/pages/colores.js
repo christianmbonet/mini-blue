@@ -3,7 +3,7 @@ import colores from '../images/colores.jpg';
 import '../components/index.css';
 import Navigation from '../components/Navigation';
 
-const itPage = () => {
+const coloresPage = () => {
     return (
         <div className='colores'>
         <img className='colores' src= {colores} alt='colores'></img>
@@ -14,4 +14,4 @@ const itPage = () => {
     )
 }
 
-export default colores;
+export default coloresPage;

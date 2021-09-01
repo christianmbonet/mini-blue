@@ -353,6 +353,13 @@ button {
     background-color: #084B83;
 }
 
+.rowFourColumnTwo {
+    display: flex;
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+}
+
 .bottomLeft {
     display: flex;
     flex-direction: column;
@@ -487,3 +494,10 @@ button {
     width: 100%;
 }
 
+.coloresPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
