@@ -1,1 +1,1 @@
-web: gatsby build
+web:node index.js
